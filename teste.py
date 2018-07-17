@@ -21,8 +21,8 @@ s2 = p.status_code
 
 if i2 == 1:
 	print g
-	print "O servidor e", (s)
+	print "O servidor deu", (s)
 if i2 == 2:
 	print p
-	print "O servidor e", (s2)
+	print "O servidor deu", (s2)
 
