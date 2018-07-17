@@ -4,7 +4,10 @@ if i == "":
 	print "Caracteres Nao validos"
 	
 
-i2 = input("Escolha o numero [*]1 para GET[*]2 para POST")
+i2 = input("""
+Escolha o numero 
+[*]1 para GET
+[*]2 para POST:")
  
 if i2 == "":
  	print "Numeros nao validos"
