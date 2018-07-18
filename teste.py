@@ -28,4 +28,25 @@ if i2 == 1:
 if i2 == 2:
 	print p
 	print "O servidor deu", (s2)
+---------------------
+#OUTRO CODIGO
+import requests
+
+i = raw_input("site:")
+	
+meth = int(raw_input("""Escolha o metodo que deseja:
+	[1] Para GET
+	[2] Para POST
+	[3] Para ver o Codigo Fonte """))
+if meth == 1:
+	print requests.get(i)
+elif meth == 2:
+	print requests.post(i)
+elif meth == 3:
+	i.text
+elif meth > 3:
+	print "Numero MAIOR que o pedido"
+elif meth < 1:
+	print "Numero MENOR que o pedido"
+
 
